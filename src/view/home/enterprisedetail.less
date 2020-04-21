@@ -1,0 +1,43 @@
+@import "../../assets/less/common.less";
+.detail{
+  background-color: #fff;
+  margin-bottom: 12px;
+  h1{
+    line-height: 50px;
+    font-size: 1.6rem;
+    width: 92%;
+    margin: 0 auto;
+    color: #0B1439;
+  }
+  ul{
+    li{
+      // padding: 0 4%;
+      width: 92%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+      &:last-child{
+        border: 0;
+      }
+      em{
+        color: #394061;
+        line-height: 35px;
+        min-width: 70px;
+        text-align: left;
+        font-size: 1.4rem;
+        padding-right: 5px;
+      }
+      span{
+        display: block;
+        color: #0B1439;
+        flex: 1;
+        line-height: 20px;
+        font-size: 1.4rem;
+        text-align: right;
+        padding: 8px 0;
+      }
+    }
+  }
+}
